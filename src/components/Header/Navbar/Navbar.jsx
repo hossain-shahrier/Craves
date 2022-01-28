@@ -19,8 +19,8 @@ const Container = styled.div`
 const CustomSidebar = styled.div``;
 const Logo = styled.div``;
 const LogoText = styled.span`
-  font-size: 1.8rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 900;
 `;
 
 const NavItems = styled.div``;
@@ -54,7 +54,7 @@ const Navbar = () => {
         </Link>
       </Logo>
       <NavItems className="md:flex hidden items-center text-center">
-        <NavItem className="md:mr-8 mr-5">STORE</NavItem>
+        <NavItem className="md:mr-8 mr-5 ml-5">STORE</NavItem>
         <NavItem className="md:mr-8 mr-5">COLLECTION</NavItem>
         <NavItem className="md:mr-8 mr-5">CATEGORIES</NavItem>
         <NavItem className="md:mr-8 mr-5">BLOG</NavItem>

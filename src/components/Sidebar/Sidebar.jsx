@@ -48,7 +48,11 @@ const Sidebar = ({ closeToggle }) => {
   return (
     <Container className="flex md:hidden justify-between bg-white h-full min-w-210 hide-scrollbar">
       <Wrapper className="flex justify-between flex-col m-6">
-        <Link to="/" className=" text-3xl" onClick={() => handleCloseSidebar()}>
+        <Link
+          to="/"
+          className=" text-3xl font-black"
+          onClick={() => handleCloseSidebar()}
+        >
           Craves
         </Link>
         <SidebarMenuContainer className="">
@@ -76,7 +80,9 @@ const Sidebar = ({ closeToggle }) => {
         </SidebarMenuContainer>
         <SidebarProfile className="flex items-center border-t-2 cursor-pointer. py-3">
           <BsPerson className="mr-2 text-2xl text-gray-700 font-bold" />
-          <SidebarMenuText>Login/Register</SidebarMenuText>
+          <SidebarMenuText className="cursor-pointer">
+            Login/Register
+          </SidebarMenuText>
         </SidebarProfile>
         <SidebarFooter className="flex flex-col border-t-2 border-b-2 py-3">
           <span className="mb-5 text-gray-700 font-bold">Need help?</span>

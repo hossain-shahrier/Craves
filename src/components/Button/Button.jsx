@@ -27,7 +27,10 @@ const Button = ({ text, type }) => {
   }
   return (
     <Container>
-      <ButtonText>{text}</ButtonText>
+      <ButtonText className="flex items-center text-sm hover:translate-x-0.5 hover:text-gray-700">
+        {text}
+        <BsArrowRight className="ml-3 " />
+      </ButtonText>
     </Container>
   );
 };

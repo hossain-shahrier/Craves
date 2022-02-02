@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Hero from "../../components/Hero/Hero";
+import SemiHero from "../../components/SemiHero/SemiHero";
 
 // Components
 
@@ -12,6 +13,7 @@ const Home = (props) => {
   return (
     <Container className="">
       <Hero />
+      <SemiHero />
     </Container>
   );
 };

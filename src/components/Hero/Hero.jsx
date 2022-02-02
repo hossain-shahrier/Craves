@@ -29,7 +29,7 @@ const Subtitle = styled.span`
 const Hero = () => {
   return (
     <Container className="w-full lg:h-600 h-64 ">
-      <Wrapper className="flex h-full items-center w-full ml-20 md:ml-24">
+      <Wrapper className="flex h-full items-center w-full ml-20 md:ml-24 animate-slide-in">
         <Description className="flex items-start flex-col">
           <Title className="mb-5">HOT PRODUCT</Title>
           <Subtitle className="text-secColor mb-3 ">Koppel 22cm</Subtitle>
